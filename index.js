@@ -64,5 +64,5 @@ app.get('/downloadmp4', async (req, res, next) => {
 });
 
 server.listen(3000, () => {
-	console.log(chalk.greenBright.bold("server") + " - " + chalk.magenta("event") + " - Listening on :3000")
+	console.log("Listening on :3000")
 });
